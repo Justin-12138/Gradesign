@@ -22,6 +22,22 @@ Wrapper methods [3] consider subsets of the set of all features.
 
 别人的文章
 
+22
+
+23
+
+24,25
+
+26,27
+
+28
+
+29
+
+30
+
+
+
 In [22], filter methods are compared based on two
 gene expression data sets, counting the number of misclassified
 samples. In [23], the classification accuracy of different filter,
