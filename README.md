@@ -63,9 +63,8 @@ fsl
     done
     ```
   
-    ![image-20240116225634983](/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240116225634983.png)
+    ![image-20240116225634983](imgs/image-20240116225634983.png)
     
-  
   + 提取出所有的.nii文件
     ```latex
     #!/bin/bash
@@ -101,7 +100,7 @@ fsl
     
     ```
   
-    ![image-20240116225715118](/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240116225715118.png)
+    ![image-20240116225715118](imgs/image-20240116225715118.png)
   
   + 平均配准
   
@@ -130,7 +129,7 @@ fsl
     done
     ```
   
-    ![image-20240116225822658](/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240116225822658.png)
+    ![image-20240116225822658](imgs/image-20240116225822658.png)
   
   + 偏差场校正加归一化：纠正MRI图像的光照不均，例如使用N4方法。
     ```latex
@@ -158,5 +157,5 @@ fsl
         executor.map(process_file, nii_files)
     ```
   
-    ![image-20240116225853688](/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240116225853688.png)
+    ![image-20240116225853688](imgs/image-20240116225853688.png)
 
