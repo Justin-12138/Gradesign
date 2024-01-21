@@ -52,46 +52,86 @@ fsl
 
   + 原始图像
 
-    <img src="/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240119151051485.png" alt="image-20240119151051485" style="zoom:25%;" />
+    <img src="imgs/init.png" alt="image-20240121120921751" style="zoom:25%;" />
 
   + 颅骨剥离
 
-    <img src="/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240119015518284.png" alt="image-20240119015518284" style="zoom:25%;" />
+    <img src="imgs/brain_struc.png" alt="image-20240119015518284" style="zoom:25%;" />
 
     
 
   + 配准(182x218x182)
 
-  <img src="/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240119015700542.png" alt="image-20240119015700542" style="zoom:25%;" />
+  <img src="imgs/pz.png" alt="image-20240119015700542" style="zoom:25%;" />
 
   + 高斯平滑
 
-  <img src="/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240119015751695.png" alt="image-20240119015751695" style="zoom:25%;" />
+  <img src="imgs/Gauss_smooth.png" alt="image-20240119015751695" style="zoom:25%;" />
 
   
 
   + 灰度归一化(使用fsleyes展示，itksnap只支持16位精度)
 
-    ![image-20240119020106590](/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240119020106590.png)
+    <img src="imgs/grey_normalized.png" alt="image-20240121121120114" style="zoom:25%;" />
 
   + 切片(182x218x182)
     
     90,100,90
     
-    ![](/home/lz/repo/Gradesign/imgs/slice.png)
+    ![](imgs/slice.png)
     
     9,18,9
     
-    ![](/home/lz/repo/Gradesign/imgs/Figure_2.png)
+    ![](imgs/Figure_2.png)
     
     170,200,170
     
-    ![](/home/lz/repo/Gradesign/imgs/Figure_3.png)
+    ![](imgs/Figure_3.png)
 
 
-  + 
+  + **切片**
 
+    + ***x轴切片***
+      **AD**
     
+      ![image-20240121121337456](imgs/image-20240121121337456.png)
+    
+    
+      **CN**
+    
+      ![image-20240121121411338](imgs/image-20240121121411338.png)
+    
+      **MCI**
+    
+      ![image-20240121121512753](imgs/image-20240121121512753.png)
+    
+    + ***y轴切片***
+    
+      **AD**
+    
+      ![image-20240121121842813](imgs/image-20240121121842813.png)
+    
+      **CN**
+    
+      ![image-20240121121903704](imgs/image-20240121121903704.png)
+      **MCI**
+    
+      ![image-20240121121926252](imgs/image-20240121121926252.png)
+    
+    + ***z轴切片***
+      **AD**
+    
+      ![image-20240121122003221](imgs/image-20240121122003221.png)
+      **CN**
+    
+      ![image-20240121122018800](imgs/image-20240121122018800.png)
+      **MCI**
+    
+      ![image-20240121122040356](imgs/image-20240121122040356.png)
+    
+    + 
+    
+    + 
     
   + 
 
