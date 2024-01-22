@@ -2,12 +2,23 @@
 
 #### Update
 
-+ **2024.01.15:背景调查,以及数据预处理**
++ **2024.01.22:数据处理流程化,尝试已实现方法**:melon:
+
++ **2024.01.15:背景调查,以及数据预处理**:notebook:
 
 #### TODO
 
 - [x] 基本的数据预处理
+
 - [ ] 常见的神经网络模型
+
+  + Multilayer_Perceptron
+
+  + resNet
+  + LeNet
+  + AlexNet
+  + VGG
+
 - [ ] 图神经网络
 
 #### Tools
@@ -28,26 +39,9 @@ fsl
 
 + 数据预处理
 
-+ 
-
   + 从ADNI下载数据集
     ```latex
     https://adni.loni.usc.edu
-    ```
-
-  + 去掉重复的数据
-
-    ```latex
-    #!/bin/bash
-    cd .
-    for dir in $(ls -d */); do
-      cd $dir
-      subdirs=(*/)
-      for ((i=1; i<${#subdirs[@]}; i++)); do
-        rm -r ${subdirs[$i]}
-      done
-      cd ..
-    done
     ```
 
   + 原始图像
