@@ -26,10 +26,15 @@
 ```latex
 python==3.10.8
 itksnap-4.0.2-20230925-Linux-gcc64
-fsl
+fsl python2
 ```
 
 #### Dataset
+
+```latex
+chmod +x workflow.sh
+./workflow.sh
+```
 
 + 数据集介绍
 
@@ -122,10 +127,6 @@ fsl
       **MCI**
     
       ![image-20240121122040356](imgs/image-20240121122040356.png)
-    
-    + 
-    
-    + 
     
   + 
 
