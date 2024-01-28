@@ -2,6 +2,8 @@
 
 #### Update
 
++ **2024.01.28:resNet18(acc:0.5)**:aerial_tramway:
+
 + **2024.01.22:数据处理流程化,尝试已实现方法**:melon:
 
 + **2024.01.15:背景调查,以及数据预处理**:notebook:
@@ -128,7 +130,8 @@ chmod +x workflow.sh
     
       ![image-20240121122040356](imgs/image-20240121122040356.png)
     
-  + 
+  + **RESnet18**
+    ![image-20240128215820893](/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240128215820893.png)
 
     
 
