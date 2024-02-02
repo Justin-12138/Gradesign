@@ -2,6 +2,8 @@
 
 #### Update
 
++ **2024.02.2:完整的workflow.sh**:lantern:
+
 + **2024.01.28:resNet18(acc:0.5)**:aerial_tramway:
 
 + **2024.01.22:数据处理流程化,尝试已实现方法**:melon:
@@ -34,6 +36,8 @@ fsl python2
 #### Dataset
 
 ```latex
+git clone git@github.com:Justin-12138/Gradesign.git
+cd Gradesign/ADNI
 chmod +x workflow.sh
 ./workflow.sh
 ```
