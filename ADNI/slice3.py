@@ -27,7 +27,7 @@ for file in os.listdir('grey_normalized'):
     subject_id = file.split('.')[0]
 
     # Get the group for this subject
-    group = meta_data.loc[meta_data['Subject'] == subject_id, 'Group'].values[0]
+    group = meta_data.loc[meta_data['ID'] == subject_id, 'Label'].values[0]
 
     # Create directories for this group if they don't exist
     os.makedirs(os.path.join('slice/x', group), exist_ok=True)

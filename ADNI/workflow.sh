@@ -79,3 +79,22 @@ echo "--------------------------------------------------------------"
 echo "开始切片"
 /home/lz/anaconda3/envs/gdesign/bin/python ./slice3.py
 
+echo "--------------------------------------------------------------"
+echo "开始划分数据集"
+/home/lz/anaconda3/envs/gdesign/bin/python ./datasp.py
+
+cp sp.py slice/x
+cp sp.py slice/y
+cp sp.py slice/z
+
+cd slice/x/
+/home/lz/anaconda3/envs/gdesign/bin/python slice/x/sp.py
+cd ../y/
+/home/lz/anaconda3/envs/gdesign/bin/python slice/y/sp.py
+cd ../z/
+/home/lz/anaconda3/envs/gdesign/bin/python slice/z/sp.py
+
+
+
+
+
