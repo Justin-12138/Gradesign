@@ -2,7 +2,9 @@
 
 #### Update
 
-+ **2024.02.2:完整的workflow.sh**:lantern:
++ **2024.03.20:尝试重新使用FREESURFER处理脑部数据**
+
++ **2024.02.02:完整的workflow.sh**:lantern:
 
 + **2024.01.28:resNet18(acc:0.5)**:aerial_tramway:
 
@@ -134,16 +136,8 @@ chmod +x workflow.sh
     
       ![image-20240121122040356](imgs/image-20240121122040356.png)
     
-  + **RESnet18**
-    ![image-20240128215820893](/home/lz/snap/typora/86/.config/Typora/typora-user-images/image-20240128215820893.png)
-
-    
-
-  + 
-
-    
-    
-  + 
+  + **RESnet18(Pretrained=True)**
+    <img src="imgs/resnet18_first.png" alt="image-20240128215820893" style="zoom:33%;" />
 
     
 
