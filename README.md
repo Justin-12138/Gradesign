@@ -6,7 +6,7 @@
 
 + **2024.02.02:完整的workflow.sh**:lantern:
 
-+ **2024.01.28:resNet18(acc:0.5)**:aerial_tramway:
++ **2024.01.28:resNet18(acc:0.7)**:aerial_tramway:
 
 + **2024.01.22:数据处理流程化,尝试已实现方法**:melon:
 
@@ -137,7 +137,5 @@ chmod +x workflow.sh
       ![image-20240121122040356](imgs/image-20240121122040356.png)
     
   + **RESnet18(Pretrained=True)**
-    <img src="imgs/resnet18_first.png" alt="image-20240128215820893" style="zoom:33%;" />
-
     
 
